@@ -5,11 +5,12 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectComponent } from './project/project.component';
 
+// Routes - setup routes here
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
-  {path: 'project', component: ProjectComponent},
-  {path: 'contact', component: ContactMeComponent},
-  {path: 'about', component: AboutMeComponent}
+  {title: 'Home', path: 'home', component: HomeComponent},
+  {title: 'Project', path: 'project', component: ProjectComponent},
+  {title: 'Contact Me', path: 'contact', component: ContactMeComponent},
+  {title: 'About Me', path: 'about', component: AboutMeComponent}
 ];
 
 @NgModule({
