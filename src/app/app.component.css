@@ -1,3 +1,7 @@
+.container {
+    margin: 10px;
+}
+
 h1 {
     margin-top: 0;
     font-size: 120px;
